@@ -1,0 +1,205 @@
+-----------------------
+Index, Quality, Funding, budget = 101, n = 5
+0, 3, 29
+1, 52, 58
+2, 40, 27
+3, 8, 47
+4, 44, 33
+Greedy - Total Funding used: 89, Total Quality: 87, Subset: [0, 2, 4]
+DP - Total Funding used: 91, Total Quality: 96, Subset: [1, 4]
+Brute - Total Funding used: 91, Total Quality: 96, Subset: [1, 4]
+5,1.1000000000004062e-05,0.00023230000000000472, 4.563800000000062e-05
+-----------------------
+Index, Quality, Funding, budget = 376, n = 10
+0, 47, 50
+1, 95, 53
+2, 54, 47
+3, 28, 33
+4, 94, 1
+5, 36, 21
+6, 12, 44
+7, 67, 93
+8, 7, 88
+9, 47, 46
+Greedy - Total Funding used: 344, Total Quality: 468, Subset: [0, 1, 2, 3, 4, 5, 7, 9]
+DP - Total Funding used: 344, Total Quality: 468, Subset: [0, 1, 2, 3, 4, 5, 7, 9]
+Brute - Total Funding used: 344, Total Quality: 468, Subset: [0, 1, 2, 3, 4, 5, 7, 9]
+10,1.0273999999997618e-05,0.0020959810000000037, 0.0014111039999999964
+-----------------------
+Index, Quality, Funding, budget = 80, n = 15
+0, 79, 67
+1, 20, 98
+2, 73, 86
+3, 39, 43
+4, 89, 71
+5, 26, 80
+6, 79, 90
+7, 7, 51
+8, 87, 67
+9, 44, 15
+10, 40, 3
+11, 20, 99
+12, 53, 6
+13, 45, 49
+14, 35, 11
+Greedy - Total Funding used: 78, Total Quality: 211, Subset: [3, 9, 10, 12, 14]
+DP - Total Funding used: 78, Total Quality: 211, Subset: [3, 9, 10, 12, 14]
+Brute - Total Funding used: 78, Total Quality: 211, Subset: [3, 9, 10, 12, 14]
+15,9.88700000000009e-06,0.0004058540000000041, 0.057591593999999996
+-----------------------
+Index, Quality, Funding, budget = 129, n = 20
+0, 24, 70
+1, 61, 32
+2, 69, 98
+3, 28, 24
+4, 71, 87
+5, 75, 40
+6, 46, 70
+7, 67, 71
+8, 35, 96
+9, 34, 6
+10, 9, 51
+11, 36, 100
+12, 85, 53
+13, 66, 66
+14, 99, 14
+15, 6, 86
+16, 61, 33
+17, 9, 56
+18, 46, 93
+19, 4, 56
+Greedy - Total Funding used: 125, Total Quality: 330, Subset: [1, 5, 9, 14, 16]
+DP - Total Funding used: 125, Total Quality: 330, Subset: [1, 5, 9, 14, 16]
+Brute - Total Funding used: 125, Total Quality: 330, Subset: [1, 5, 9, 14, 16]
+20,1.2257000000015505e-05,0.000923604999999994, 2.518691011
+-----------------------
+Index, Quality, Funding, budget = 71, n = 25
+0, 88, 51
+1, 35, 29
+2, 34, 87
+3, 29, 63
+4, 45, 63
+5, 79, 82
+6, 78, 72
+7, 81, 40
+8, 62, 65
+9, 45, 24
+10, 21, 67
+11, 85, 88
+12, 83, 53
+13, 32, 57
+14, 85, 62
+15, 23, 18
+16, 13, 78
+17, 49, 85
+18, 81, 23
+19, 93, 84
+20, 2, 28
+21, 20, 25
+22, 16, 98
+23, 5, 35
+24, 6, 67
+Greedy - Total Funding used: 63, Total Quality: 162, Subset: [7, 18]
+DP - Total Funding used: 63, Total Quality: 162, Subset: [7, 18]
+Brute - Total Funding used: 63, Total Quality: 162, Subset: [7, 18]
+25,1.3043000000045879e-05,0.00047216599999977404, 96.14480941600002
+-----------------------
+Index, Quality, Funding, budget = 267, n = 5
+0, 23, 29
+1, 28, 74
+2, 64, 35
+3, 1, 95
+4, 19, 36
+Greedy - Total Funding used: 174, Total Quality: 134, Subset: [0, 1, 2, 4]
+DP - Total Funding used: 174, Total Quality: 134, Subset: [0, 1, 2, 4]
+Brute - Total Funding used: 174, Total Quality: 134, Subset: [0, 1, 2, 4]
+-----------------------
+Index, Quality, Funding, budget = 248, n = 10
+0, 73, 89
+1, 87, 83
+2, 69, 43
+3, 41, 98
+4, 41, 14
+5, 61, 42
+6, 12, 26
+7, 50, 24
+8, 29, 57
+9, 17, 54
+Greedy - Total Funding used: 232, Total Quality: 320, Subset: [1, 2, 4, 5, 6, 7]
+DP - Total Funding used: 232, Total Quality: 320, Subset: [1, 2, 4, 5, 6, 7]
+Brute - Total Funding used: 232, Total Quality: 320, Subset: [1, 2, 4, 5, 6, 7]
+-----------------------
+Index, Quality, Funding, budget = 478, n = 15
+0, 77, 92
+1, 23, 36
+2, 55, 98
+3, 43, 19
+4, 30, 40
+5, 32, 12
+6, 69, 86
+7, 36, 29
+8, 52, 26
+9, 46, 75
+10, 69, 17
+11, 21, 62
+12, 81, 7
+13, 38, 36
+14, 42, 4
+Greedy - Total Funding used: 466, Total Quality: 613, Subset: [0, 1, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14]
+DP - Total Funding used: 466, Total Quality: 624, Subset: [0, 2, 3, 4, 5, 6, 7, 8, 10, 12, 13, 14]
+Brute - Total Funding used: 466, Total Quality: 624, Subset: [0, 2, 3, 4, 5, 6, 7, 8, 10, 12, 13, 14]
+-----------------------
+Index, Quality, Funding, budget = 141, n = 20
+0, 44, 6
+1, 11, 26
+2, 98, 27
+3, 50, 1
+4, 80, 29
+5, 20, 95
+6, 22, 4
+7, 32, 32
+8, 21, 55
+9, 65, 77
+10, 47, 78
+11, 76, 2
+12, 78, 74
+13, 21, 47
+14, 45, 2
+15, 39, 81
+16, 92, 61
+17, 55, 63
+18, 73, 18
+19, 79, 67
+Greedy - Total Funding used: 121, Total Quality: 520, Subset: [0, 2, 3, 4, 6, 7, 11, 14, 18]
+DP - Total Funding used: 121, Total Quality: 520, Subset: [0, 2, 3, 4, 6, 7, 11, 14, 18]
+Brute - Total Funding used: 121, Total Quality: 520, Subset: [0, 2, 3, 4, 6, 7, 11, 14, 18]
+-----------------------
+Index, Quality, Funding, budget = 1379, n = 25
+0, 32, 44
+1, 71, 47
+2, 48, 90
+3, 35, 40
+4, 22, 42
+5, 36, 90
+6, 17, 70
+7, 63, 58
+8, 48, 88
+9, 58, 81
+10, 94, 94
+11, 56, 5
+12, 29, 12
+13, 30, 74
+14, 42, 13
+15, 17, 73
+16, 4, 53
+17, 6, 2
+18, 92, 84
+19, 55, 76
+20, 17, 82
+21, 11, 67
+22, 3, 89
+23, 80, 95
+24, 44, 27
+Greedy - Total Funding used: 1354, Total Quality: 1003, Subset: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18, 19, 20, 21, 23, 24]
+DP - Total Funding used: 1354, Total Quality: 1003, Subset: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18, 19, 20, 21, 23, 24]
+Brute - Total Funding used: 1354, Total Quality: 1003, Subset: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18, 19, 20, 21, 23, 24]
