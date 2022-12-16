@@ -32,7 +32,7 @@ Brute Force: O(2^n)
     Greedy - Total Funding used: 89, Total Quality: 87, Subset: [0, 2, 4]
     DP - Total Funding used: 91, Total Quality: 96, Subset: [1, 4]
     Brute - Total Funding used: 91, Total Quality: 96, Subset: [1, 4]
-    Times (greedy, dp, brute):
+    Times (n, greedy, dp, brute):
     5,1.1000000000004062e-05,0.00023230000000000472, 4.563800000000062e-05
     -----------------------
     Index, Quality, Funding, budget = 376, n = 10
@@ -50,7 +50,7 @@ Brute Force: O(2^n)
     Greedy - Total Funding used: 344, Total Quality: 468, Subset: [0, 1, 2, 3, 4, 5, 7, 9]
     DP - Total Funding used: 344, Total Quality: 468, Subset: [0, 1, 2, 3, 4, 5, 7, 9]
     Brute - Total Funding used: 344, Total Quality: 468, Subset: [0, 1, 2, 3, 4, 5, 7, 9]
-    Times (greedy, dp, brute):
+    Times (n, greedy, dp, brute):
     10,1.0273999999997618e-05,0.0020959810000000037, 0.0014111039999999964
     -----------------------
     Index, Quality, Funding, budget = 80, n = 15
@@ -73,7 +73,7 @@ Brute Force: O(2^n)
     Greedy - Total Funding used: 78, Total Quality: 211, Subset: [3, 9, 10, 12, 14]
     DP - Total Funding used: 78, Total Quality: 211, Subset: [3, 9, 10, 12, 14]
     Brute - Total Funding used: 78, Total Quality: 211, Subset: [3, 9, 10, 12, 14]
-    Times (greedy, dp, brute):
+    Times (n, greedy, dp, brute):
     15,9.88700000000009e-06,0.0004058540000000041, 0.057591593999999996
     -----------------------
     Index, Quality, Funding, budget = 129, n = 20
@@ -101,7 +101,7 @@ Brute Force: O(2^n)
     Greedy - Total Funding used: 125, Total Quality: 330, Subset: [1, 5, 9, 14, 16]
     DP - Total Funding used: 125, Total Quality: 330, Subset: [1, 5, 9, 14, 16]
     Brute - Total Funding used: 125, Total Quality: 330, Subset: [1, 5, 9, 14, 16]
-    Times (greedy, dp, brute):
+    Times (n, greedy, dp, brute):
     20,1.2257000000015505e-05,0.000923604999999994, 2.518691011
     -----------------------
     Index, Quality, Funding, budget = 71, n = 25
@@ -134,7 +134,7 @@ Brute Force: O(2^n)
     Greedy - Total Funding used: 63, Total Quality: 162, Subset: [7, 18]
     DP - Total Funding used: 63, Total Quality: 162, Subset: [7, 18]
     Brute - Total Funding used: 63, Total Quality: 162, Subset: [7, 18]
-    Times (greedy, dp, brute):
+    Times (n, greedy, dp, brute):
     25,1.3043000000045879e-05,0.00047216599999977404, 96.14480941600002
 
 ## Test cases
