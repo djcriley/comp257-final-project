@@ -154,6 +154,7 @@ It was found that the greedy implementation outperformed the dynamic programming
 
 ## Why Greedy Does Not Always Give Correct Output
 Since my greedy implementation used the ratio of quality/cost in order to sort the proposals, it can sometimes lead to a non-optimal answer. We can see this happen on this test case:
+```
 -----------------------
 Index, Quality, Funding, budget = 101, n = 5
 0, 3, 29
@@ -164,6 +165,7 @@ Index, Quality, Funding, budget = 101, n = 5
 Greedy - Total Funding used: 89, Total Quality: 87, Subset: [0, 2, 4]
 DP - Total Funding used: 91, Total Quality: 96, Subset: [1, 4]
 Brute - Total Funding used: 91, Total Quality: 96, Subset: [1, 4]
+```
 
 This shows a moment when the greedy algorithm can sometimes get a non-optimal soltuon. THis is because it sorts based on quality/cost ratio, making it select the proposals that are the most "worth it" but since it is greedy it will always select a proposal if it fits. If it does not fit then it doesnt chose it, but sometimes selecting the first proposals might not be the optimal subset.
 
