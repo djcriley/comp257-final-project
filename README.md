@@ -16,9 +16,9 @@ This project was split up into seperate files:
 
 ## Runtimes
 
-Greedy: O(n log n)
-Dynamic Programming: O(n)
-Brute Force: O(2^n)
+- Greedy: O(n log n)
+- Dynamic Programming: O(n)
+- Brute Force: O(2^n)
 
 ## Example Output
     -----------------------
