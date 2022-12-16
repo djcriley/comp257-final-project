@@ -15,9 +15,9 @@ This project was split up into seperate files:
 
 
 ## Runtimes
-- Greedy: O(n log n)
-- Dynamic Programming: O(n)
-- Brute Force: O(2^n)
+- Greedy: O(n log n) because it sorts the inputs based on a certain criteria. This is nlogn time.
+- Dynamic Programming: O(n) - becasue it only iterates over the input 1 time.
+- Brute Force: O(2^n) - becasue it creates all possible subsets of proposals which is 2^n time. 
 
 ## Example Output
     -----------------------
