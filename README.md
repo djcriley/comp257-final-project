@@ -1,4 +1,4 @@
-# comp257-final-project
+# Cooper Riley - Final Project - Problem statement 1
 
 
 This project was split up into seperate files:
