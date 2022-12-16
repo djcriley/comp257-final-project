@@ -167,7 +167,7 @@ DP - Total Funding used: 91, Total Quality: 96, Subset: [1, 4]
 Brute - Total Funding used: 91, Total Quality: 96, Subset: [1, 4]
 ```
 
-This shows a moment when the greedy algorithm can sometimes get a non-optimal soltuon. THis is because it sorts based on quality/cost ratio, making it select the proposals that are the most "worth it" but since it is greedy it will always select a proposal if it fits. If it does not fit then it doesnt chose it, but sometimes selecting the first proposals might not be the optimal subset.
+This shows a moment when the greedy algorithm can sometimes get a non-optimal soltuon. This is because it sorts based on quality/cost ratio, making it select the proposals that are the most "worth it" but since it is greedy it will always select a proposal if it fits. If it does not fit then it doesnt chose it, but sometimes selecting the first proposals might not be the optimal subset.
 
 
 ## Recomendation
