@@ -6,9 +6,9 @@ This project was split up into seperate files:
 - brute.py has the brute force implementation.
 - dp.py has the dynamic programming implementation.
 - greedy.py has the greedy implementation.
-- script.py is used to run all functions and time them, then output them to a CSV file.
-- graph.py is used to make the graphs shown below.
-- output.csv contains results from running all 3 implementation.
+- script.py is used to run all functions on randomly generated test cases of various sizes and time them on each input size, then output them to a CSV file.
+- graph.py is used to make the graphs shown below from the csv files generated from script.py.
+- output.csv contains results from running all 3 implementations (brute force, dynamic programming, and greedy).
 - DPvsGreedy.csv contains results from running DP and greedy implentations on larger input sizes to get a closer look at runtime comparison.
 - result.txt shows the results of the algorithms run 2 times on input sizes 5, 10, 15, 20, 25.
 - Project Proposal.pdf is my project proposal docuemnt with changes to the pusedo code.
