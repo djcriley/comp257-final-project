@@ -3,19 +3,18 @@
 
 This project was split up into seperate files:
 
-- brute.py has the brute force implementation 
-- dp.py has the dynamic programming implementation
-- greedy.py has the greedy implementation 
-- script.py is used to run all functions and time them, then output them to a CSV file
-- graph.py is used to make the graphs shown below
-- output.csv contains results from running all 3 implementation 
-- DPvsGreedy.csv contains results from running DP and greedy implentations on larger input sizes to get a closer look at runtime comparison
-- result.txt shows the results of the algorithms run 2 times on input sizes 5, 10, 15, 20, 25
-
+- brute.py has the brute force implementation.
+- dp.py has the dynamic programming implementation.
+- greedy.py has the greedy implementation.
+- script.py is used to run all functions and time them, then output them to a CSV file.
+- graph.py is used to make the graphs shown below.
+- output.csv contains results from running all 3 implementation.
+- DPvsGreedy.csv contains results from running DP and greedy implentations on larger input sizes to get a closer look at runtime comparison.
+- result.txt shows the results of the algorithms run 2 times on input sizes 5, 10, 15, 20, 25.
+- Project Proposal.pdf is my project proposal docuemnt with changes to the pusedo code.
 
 
 ## Runtimes
-
 - Greedy: O(n log n)
 - Dynamic Programming: O(n)
 - Brute Force: O(2^n)
@@ -167,12 +166,7 @@ DP - Total Funding used: 91, Total Quality: 96, Subset: [1, 4]
 Brute - Total Funding used: 91, Total Quality: 96, Subset: [1, 4]
 ```
 
-This shows a moment when the greedy algorithm can sometimes get a non-optimal soltuon. This is because it sorts based on quality/cost ratio, making it select the proposals that are the most "worth it" but since it is greedy it will always select a proposal if it fits. If it does not fit then it doesnt chose it, but sometimes selecting the first proposals might not be the optimal subset.
-
+This shows a moment when the greedy algorithm can sometimes get a non-optimal soltuon. This is because it sorts based on quality/cost ratio, making it select the proposals that are the most "worth it" but since it is greedy it will always select a proposal if it fits. If it does not fit then it doesnt chose it, but sometimes selecting the first proposals might not be the optimal subset. This means that the algorithm may choose a proposal with a high quality-to-funding ratio at one step, even if choosing a proposal with a lower quality-to-funding ratio at that step would lead to a better overall solution.
 
 ## Recomendation
-I would chose the greedy algorithm due to it returning the correct answer for almost all test cases while also having the fastest theoritical runtime. For garunteed results i would use the dynamic programming approach to get the correct optimal solution and although it has the fastest theoritical runtime, the experimental runtime did not match up this is most likely because of my computer
-
-
-
-
+I would choose the greedy algorithm because it returns the correct answer for almost all test cases while also having the second fastest theoretical runtime of the three. For guaranteed results, I would use the dynamic programming approach to get the correct optimal solution. Although it has the fastest theoretical runtime, the experimental runtime did not match up. This is most likely due to my computer. I would not recommend the brute force because it takes a very long time on large input sizes.
