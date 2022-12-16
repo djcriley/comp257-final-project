@@ -47,3 +47,122 @@ This shows a moment when the greedy algorithm can sometimes get a non-optimal so
 
 ## Recomendation
 I would chose the greedy algorithm due to it returning the correct answer for almost all test cases while also having the fastest theoritical runtime. For garunteed results i would use the dynamic programming approach to get the correct optimal solution and although it has the fastest theoritical runtime, the experimental runtime did not match up this is most likely because of my computer
+
+
+## Example Output
+-----------------------
+Index, Quality, Funding, budget = 101, n = 5
+Proposals:
+0, 3, 29
+1, 52, 58
+2, 40, 27
+3, 8, 47
+4, 44, 33
+Greedy - Total Funding used: 89, Total Quality: 87, Subset: [0, 2, 4]
+DP - Total Funding used: 91, Total Quality: 96, Subset: [1, 4]
+Brute - Total Funding used: 91, Total Quality: 96, Subset: [1, 4]
+Times (greedy, dp, brute):
+5,1.1000000000004062e-05,0.00023230000000000472, 4.563800000000062e-05
+-----------------------
+Index, Quality, Funding, budget = 376, n = 10
+Proposals:
+0, 47, 50
+1, 95, 53
+2, 54, 47
+3, 28, 33
+4, 94, 1
+5, 36, 21
+6, 12, 44
+7, 67, 93
+8, 7, 88
+9, 47, 46
+Greedy - Total Funding used: 344, Total Quality: 468, Subset: [0, 1, 2, 3, 4, 5, 7, 9]
+DP - Total Funding used: 344, Total Quality: 468, Subset: [0, 1, 2, 3, 4, 5, 7, 9]
+Brute - Total Funding used: 344, Total Quality: 468, Subset: [0, 1, 2, 3, 4, 5, 7, 9]
+Times (greedy, dp, brute):
+10,1.0273999999997618e-05,0.0020959810000000037, 0.0014111039999999964
+-----------------------
+Index, Quality, Funding, budget = 80, n = 15
+Proposals:
+0, 79, 67
+1, 20, 98
+2, 73, 86
+3, 39, 43
+4, 89, 71
+5, 26, 80
+6, 79, 90
+7, 7, 51
+8, 87, 67
+9, 44, 15
+10, 40, 3
+11, 20, 99
+12, 53, 6
+13, 45, 49
+14, 35, 11
+Greedy - Total Funding used: 78, Total Quality: 211, Subset: [3, 9, 10, 12, 14]
+DP - Total Funding used: 78, Total Quality: 211, Subset: [3, 9, 10, 12, 14]
+Brute - Total Funding used: 78, Total Quality: 211, Subset: [3, 9, 10, 12, 14]
+Times (greedy, dp, brute):
+15,9.88700000000009e-06,0.0004058540000000041, 0.057591593999999996
+-----------------------
+Index, Quality, Funding, budget = 129, n = 20
+Proposals:
+0, 24, 70
+1, 61, 32
+2, 69, 98
+3, 28, 24
+4, 71, 87
+5, 75, 40
+6, 46, 70
+7, 67, 71
+8, 35, 96
+9, 34, 6
+10, 9, 51
+11, 36, 100
+12, 85, 53
+13, 66, 66
+14, 99, 14
+15, 6, 86
+16, 61, 33
+17, 9, 56
+18, 46, 93
+19, 4, 56
+Greedy - Total Funding used: 125, Total Quality: 330, Subset: [1, 5, 9, 14, 16]
+DP - Total Funding used: 125, Total Quality: 330, Subset: [1, 5, 9, 14, 16]
+Brute - Total Funding used: 125, Total Quality: 330, Subset: [1, 5, 9, 14, 16]
+Times (greedy, dp, brute):
+20,1.2257000000015505e-05,0.000923604999999994, 2.518691011
+-----------------------
+Index, Quality, Funding, budget = 71, n = 25
+Proposals:
+0, 88, 51
+1, 35, 29
+2, 34, 87
+3, 29, 63
+4, 45, 63
+5, 79, 82
+6, 78, 72
+7, 81, 40
+8, 62, 65
+9, 45, 24
+10, 21, 67
+11, 85, 88
+12, 83, 53
+13, 32, 57
+14, 85, 62
+15, 23, 18
+16, 13, 78
+17, 49, 85
+18, 81, 23
+19, 93, 84
+20, 2, 28
+21, 20, 25
+22, 16, 98
+23, 5, 35
+24, 6, 67
+Greedy - Total Funding used: 63, Total Quality: 162, Subset: [7, 18]
+DP - Total Funding used: 63, Total Quality: 162, Subset: [7, 18]
+Brute - Total Funding used: 63, Total Quality: 162, Subset: [7, 18]
+Times (greedy, dp, brute):
+25,1.3043000000045879e-05,0.00047216599999977404, 96.14480941600002
+
